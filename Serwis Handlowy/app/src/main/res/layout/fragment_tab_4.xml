@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ladowski.serwishandlowy.tab_4"
+    android:background="#2b2929"
+    android:textColor="#FFFFFF">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Nieprzeczytane"
+        android:id="@+id/bNieprzeczytane"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#FFFFFF"
+        android:background="#F55036"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Przeczytane"
+        android:id="@+id/bPrzeczytane"
+        android:textColor="#FFFFFF"
+        android:background="#F55036"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/bNieprzeczytane"
+        android:layout_toStartOf="@+id/bWyslane"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Wysłane"
+        android:id="@+id/bWyslane"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#FFFFFF"
+        android:background="#F55036"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nowa wiadomość"
+        android:id="@+id/bNowa"
+        android:layout_below="@+id/bPrzeczytane"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:background="#F55036"
+        android:layout_marginTop="5dp"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvMsgs"
+        android:layout_below="@+id/bNowa"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"/>
+</RelativeLayout>

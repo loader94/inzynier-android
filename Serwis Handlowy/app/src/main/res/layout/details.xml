@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:screenOrientation="portrait"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#2b2929"
+    android:textColor="#FFFFFF">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#2b2929"
+    android:textColor="#FFFFFF"
+    android:scrollbars="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="386dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/abc_ic_star_black_16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="nazwa"
+        android:id="@+id/tvnazwa"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:background="#F55036" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="cena"
+        android:id="@+id/tvcena"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:background="#F55036" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="kat"
+        android:id="@+id/tvkategoria"
+        android:background="#F55036"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="prod"
+        android:id="@+id/tvproducent"
+        android:background="#F55036"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvopis"
+        android:text="opis"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="uzytkownik"
+        android:id="@+id/tvuser"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:background="#F55036" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="email"
+        android:id="@+id/tvemail"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:background="#F55036" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="telefon"
+        android:id="@+id/tvtelefon"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:background="#F55036" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Napisz wiadomość"
+        android:id="@+id/bSendmsg"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:background="#F55036"
+        android:padding="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Powrót"
+        android:id="@+id/bpowrot"
+        android:textColor="#FFFFFF"
+        android:background="#F55036"
+        android:padding="16dp"/>
+
+</LinearLayout>
+    </ScrollView>

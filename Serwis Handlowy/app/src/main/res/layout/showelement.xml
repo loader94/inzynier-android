@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:screenOrientation="portrait"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#2b2929"
+    android:textColor="#FFFFFF">
+
+    <ImageView
+        android:layout_width="152dp"
+        android:layout_height="153dp"
+        android:id="@+id/imageView"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="nazwa"
+        android:id="@+id/tvNazwa"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="cena"
+        android:id="@+id/tvCena"
+        android:layout_below="@+id/tvNazwa"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/imageView"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Zobacz szczegóły"
+        android:id="@+id/tvSzcz"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/imageView"
+        android:textAlignment="center"
+        android:textColor="#F55036" />
+
+</RelativeLayout>

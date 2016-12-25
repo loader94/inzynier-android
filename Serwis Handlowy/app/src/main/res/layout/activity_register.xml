@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:screenOrientation="portrait"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ladowski.serwishandlowy.RegisterActivity"
+    android:background="#2b2929"
+    android:textColor="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REJESTRACJA"
+        android:id="@+id/textView"
+        android:background="#F55036"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:padding="5dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etLogin"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#a7a7a7"
+        android:hint="Login" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etPass1"
+        android:layout_below="@+id/etLogin"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#a7a7a7"
+        android:hint="Hasło" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etPass2"
+        android:layout_below="@+id/etPass1"
+        android:layout_alignEnd="@+id/etPass1"
+        android:layout_alignParentStart="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#a7a7a7"
+        android:hint="Powtórz hasło" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEmail"
+        android:layout_below="@+id/etPass2"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/etPass2"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#a7a7a7"
+        android:hint="Email" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/etPhone"
+        android:layout_below="@+id/etEmail"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#a7a7a7"
+        android:hint="Numer telefonu" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zarejestuj się"
+        android:id="@+id/bReg"
+        android:textColor="#FFFFFF"
+        android:background="#f55036"
+        android:layout_below="@+id/etPhone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etIP"
+        android:layout_below="@+id/etPhone"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/etPhone"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#a7a7a7"
+        android:hint="Adres bazy danych" />
+
+</RelativeLayout>

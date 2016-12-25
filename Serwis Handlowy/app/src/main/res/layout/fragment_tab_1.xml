@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:screenOrientation="portrait"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ladowski.serwishandlowy.tab_3"
+    android:background="#2b2929"
+    android:textColor="#FFFFFF"
+>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etwyszukaj"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:hint="Wyszukaj produkt"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#a7a7a7"
+        android:layout_alignParentEnd="true"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wyszukaj"
+        android:id="@+id/bwyszukaj"
+        android:layout_below="@+id/etwyszukaj"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:background="#F55036"
+        />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_below="@+id/bwyszukaj"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"/>
+</RelativeLayout>
